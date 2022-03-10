@@ -1,0 +1,234 @@
+body{
+    background-color:	#DCDCDC;
+    background-size:cover;
+}
+header navbar1{
+    color:white;
+    background-color: black;
+display: flex;
+}
+navbar1 ul  {
+    display: flex; 
+}
+navbar1 ul li{
+    display: flex;
+    
+justify-content: space-between;
+padding: 0px 80px 0px 0px;
+}
+.firstnavbar ul li{
+    list-style: none;
+}
+.firstnavbar #query{
+    width: 662px;
+height: 56px;
+border-radius: 15px;
+}
+navbar2 ul {
+    background-color: rgb(2, 0, 80);
+    color:aliceblue;
+display: flex;
+margin: 0px 0px 0px 0px;
+padding: 21px;
+justify-content: start;
+}
+
+navbar2 ul li{
+  display: flex;
+    color: burlywood;
+    padding: 5px 99px 5px 6px
+}
+header .foodpic img{
+
+
+}
+.headbestsel h1{
+    display: flex;
+    justify-content: center;
+    color:cadetblue;
+    font-weight: bolder;
+
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.5fr;
+    grid-column-gap: 39px;
+    font-size: large;
+}
+.wrapper .item{
+   
+color: rgb(32, 24, 24);
+border: 2px solid #A8A8A8;
+}
+.wrapper .items{
+    position: relative;
+    top: 120px;
+    font-size: 29px;
+}
+.wrapper .items button{
+    width: 126px;
+    height: 49px;
+    color: black;
+    background-color: whitesmoke;
+    font-weight: bolder;
+    font-size: large
+}
+.pcproduct{
+    border: 2px solid rgb(160, 147, 147);
+    padding: 71px 31px;
+    background: whitesmoke;
+    font-size: x-large;
+}
+.beautyproduct{
+    border: 2px solid rgb(160, 147, 147);
+    font-size: x-large;
+    background: whitesmoke;
+}
+
+
+.beautyproduct img{
+    padding:39px 45px 0px 0px;
+}
+.itemcategories{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 56px 3px 14px 0px;
+    font-size: x-large;
+}
+.itemcategories .catg{
+    background-color: whitesmoke;
+    color:black;
+    border: 2px solid rgb(160, 147, 147);
+    padding: 27px;
+}
+.itemcategories img{
+    padding: 4px 26px 0px 52px;
+}
+.itemcategories .catg a{
+    padding:0px 0px 0px 0px;
+}
+
+.kitchenitem{
+    border: 2px solid rgb(160, 147, 147);
+    
+    background: whitesmoke;
+    font-size: x-large;
+}
+
+
+.kitchenitem img{
+    padding:39px 45px 0px 0px;
+}
+
+.essentialitem{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 56px 3px 14px 0px;
+    ont-size: 20px;
+border: 6px solid whitesmoke;
+}
+.essentialitem .eitem a
+{
+    padding:0px 0px 0px 0px;
+}
+.essentialitem img{
+    padding: 4px 26px 0px 52px;
+}
+.signindetail {
+    
+        display: grid;
+        padding: 100px 0px 0px 0px;
+        justify-content: center;
+        margin: 14px 1px 0px 0px;
+        background-color: whitesmoke
+}
+.signindetail button{
+    width: 232px;
+    height: 36px;
+    padding: 9px;
+    margin: 4px 0px 0px 0px;
+    color: black;
+    background-color: crimson;
+}
+.footeritem{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    background-color: rgb(2, 0, 80);
+    color:whitesmoke;
+    padding: 16px 9px 14px 13px;
+    font-size: 17px
+
+}
+.footeritem .footerdeatil
+{
+    background-color: rgb(2, 0, 80);
+ 
+}
+.footerlogo{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(2, 0, 80);
+    padding: 71px 0px 62px 15px;
+    margin: 4px 0px 9px 5px
+}
+.footerlogo button{
+    border: 1px solid whitesmoke;
+    padding: 6px 41px 9px 18px;
+    border: 1px solid rgb(160, 147, 147);
+    background-color: rgb(2, 0, 80);
+    color:white;
+}
+.container{
+  
+
+}
+.container{
+   list-style: none;
+   margin: 0px 5px 6px 1px;
+}
+.container li{
+   display: inline-block;
+   border: 2px solid black;
+   color:white;
+  
+   font-weight: bold;
+   font-size: 10px;
+}
+.list li{
+   display: block;
+}
+.list{
+   display: none;
+   position: absolute;
+}
+.container li:hover .list{
+   display: block;
+}
+.list1  l:hover {
+  color: aliceblue;
+}
+.footerlogo button img
+    {
+        margin: 2px 0px -6px 6px;
+    }
+ 
+        .footerdiscription
+        {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto;
+            justify-content: space-evenly;
+            background-color: rgb(7, 6, 22);
+            color:aliceblue
+        }
+        .footerdiscription .fitem{
+            
+        }
+.footerr{
+    background-color: rgb(7, 6, 22);
+    color:white;
+    display: flex;
+justify-content: center
+
+    
+}
